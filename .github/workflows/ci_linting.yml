@@ -4,7 +4,7 @@ on:
   pull_request:
     branches: [lrstewart]
   merge_group:
-    types: [checks-requested]
+    types: [checks_requested]
     branches: [lrstewart]
 jobs:
   cppcheck:
